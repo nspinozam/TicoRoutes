@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al sistema de configuración de TicoRoutes"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewTituloInicioSesion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:paddingTop="10dp"
+        android:text="Regístrese como usuario administrador"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/usuarioEditTextRegAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre de usuario"
+        android:textSize="20sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/passwordEditTextRegAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/repasswordEditTextRegAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirme Contraseña"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/botonRegistrarAdministrador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listo, registrarme como administrador" />
+
+</LinearLayout>

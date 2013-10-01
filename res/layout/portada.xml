@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.gmendezm.ticoroutes"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/v0"
+    android:gravity="top" >
+
+    <ImageView
+        android:id="@+id/imagen_bandera"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:clickable="false"
+        android:cropToPadding="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:maxHeight="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/i000" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/boton_entrar_modo_visitante"
+        android:layout_alignParentRight="true" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="wrap_content"
+             >
+
+            <ImageButton
+                android:id="@+id/boton_abrir_formulario_login"
+                style="@style/Botoncito"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                
+                android:src="@drawable/i002" />
+
+            <ImageButton
+                android:id="@+id/boton_abrir_formulario_registro"
+                style="@style/Botoncito"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                
+                android:background="@null"
+                android:src="@drawable/i003" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/boton_abrir_sitio_web"
+                style="@style/Botoncito"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+              
+                android:background="@null"
+                android:src="@drawable/i004" />
+
+            <ImageButton
+                android:id="@+id/boton_salir"
+                style="@style/Botoncito"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                
+                android:background="@null"
+                android:src="@drawable/i005" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/boton_entrar_modo_visitante"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@+id/tableLayout1"
+        
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/i001" />
+
+</RelativeLayout>

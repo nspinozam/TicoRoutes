@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewTituloInicioSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Regístrate con TicoRoutes"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextUsernameRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewTituloInicioSesion"
+        android:ems="10"
+        android:hint="Ingresa tu nombre de usuario"
+        android:textSize="20sp" >
+        
+         <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPasswordRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextUsernameRegistro"
+        android:ems="10"
+        android:hint="Ingresa la contraseña"
+        android:inputType="textPassword"
+        android:textSize="20sp" >
+
+       
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextRepasswordRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextPasswordRegistro"
+        android:ems="10"
+        android:hint="Confirma tu contraseña"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextEmailRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextRepasswordRegistro"
+        android:ems="10"
+        android:hint="Ingresa tu Email"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/botonRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextEmailRegistro"
+        android:text="Registrarme" />
+
+</RelativeLayout>

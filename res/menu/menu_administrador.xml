@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_administrar_usuarios" android:title="Administrar Usuarios"></item>
+    <item android:id="@+id/item_administrar_categorias" android:title="Administrar Categorias"></item>
+    <item android:id="@+id/item_administrar_sitios" android:title="Administrar Sitios"></item>
+    <item android:id="@+id/item_administrar_eventos" android:title="Administrar Eventos"></item>
+    <item android:id="@+id/item_administrar_albumes_y_fotos" android:title="Administrar Albumes y Fotos"></item>
+    <item android:id="@+id/item_administrar_comentarios" android:title="Administrar Comentarios"></item>
+
+</menu>

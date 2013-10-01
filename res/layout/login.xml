@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editTextUsernameInicioSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewTituloInicioSesion"
+        android:ems="10"
+        android:hint="Ingresa tu nombre de usuario"
+        android:textSize="20sp" > 
+        
+         <requestFocus />
+         
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewTituloInicioSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Inicio de Sesión"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextPasswordInicioSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextUsernameInicioSesion"
+        android:ems="10"
+        android:hint="Ingresa tu contraseña"
+        android:inputType="textPassword" >
+       
+    </EditText>
+
+    <Button
+        android:id="@+id/botonIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextPasswordInicioSesion"
+        android:text="Iniciar Sesión" />
+
+</RelativeLayout>
